@@ -1,0 +1,37 @@
+.input_form {
+	width: 100%;
+	min-height: 45px;
+	border: 1px solid #989898;
+	border-radius: 6px;
+	display: flex;
+	position: relative;
+	padding: 12px 45px 12px 12px;
+	margin-bottom: 8px;
+	z-index: 2;
+}
+.input_form:hover,
+.input_form:focus {
+	transform: scale(1.02);
+	transition: 0.1s;
+}
+
+.input_text {
+	width: 100%;
+}
+
+.input_btn {
+	content: "";
+	background: url(icon.svg);
+	background-size: cover;
+	width: 17px;
+	height: 17px;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	transition: 0.8s;
+	z-index: 3;
+}
+
+.input_btn:hover {
+	transform: rotate(180deg);
+}
