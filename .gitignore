@@ -13,7 +13,7 @@
 /src
 .gitignore
 package-lock.json
-package
+package.json
 
 # misc
 .DS_Store
