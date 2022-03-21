@@ -24,9 +24,3 @@ export interface ITask {
 	checked: boolean;
 	readonly priority: string;
 }
-
-export interface ILocalStorage {
-  tasks: ITask[];
-	setTasks(value: ITask[]): void;
-	key: string
-}
