@@ -1,0 +1,78 @@
+.form {
+	width: 100%;
+	min-height: 45px;
+	border: 1px solid #989898;
+	border-radius: 6px;
+	display: flex;
+	position: relative;
+	padding: 12px 45px;
+	margin-bottom: 8px;
+	z-index: 2;
+}
+
+.form_active {
+	width: 100%;
+	min-height: 45px;
+	border: 1px solid #989898;
+	background: #e5e5e5;
+	border-radius: 6px;
+	display: flex;
+	position: relative;
+	padding: 12px 45px;
+	margin-bottom: 8px;
+	z-index: 2;
+}
+.active {
+	background: #989898;
+}
+
+.form:hover,
+.form_active:hover {
+	transform: scale(1.02);
+	transition: 0.2s;
+}
+.form p {
+	overflow-wrap: break-word;
+	min-width: 0;
+}
+
+.input_checkbox {
+	cursor: pointer;
+	position: absolute;
+	width: 21px;
+	height: 21px;
+	top: 12px;
+	left: 12px;
+	border: 1px solid #989898;
+	border-radius: 100%;
+	-webkit-appearance: none;
+	appearance: none;
+	display: flex;
+}
+
+.input_checkbox:checked::after {
+	content: "";
+	margin: auto;
+	display: block;
+	width: 15px;
+	height: 15px;
+	background: #c4c4c4;
+	border-radius: 100%;
+}
+
+.input_btn {
+	content: "";
+	background: url(icon/close-icon.svg) no-repeat;
+	background-size: cover;
+	width: 13px;
+	height: 13px;
+	position: absolute;
+	top: 15px;
+	right: 16px;
+	transition: 0.8s;
+	z-index: 3;
+}
+
+.input_btn:hover {
+	transform: rotate(180deg);
+}

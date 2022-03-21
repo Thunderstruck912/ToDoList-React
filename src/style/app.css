@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+  font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	display: flex;
+	background: #e5e5e5;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+#root {
+	display: flex;
+	margin: 15px auto 0;
+}
+
+.app {
+	width: 476px;
+	min-height: 688px;
+	margin: 15px auto;
+	padding: 25px 8px;
+	background-color: #fff;
+}
+
+[type="text"],
+[type="button"],button {
+	background: none;
+	color: inherit;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
