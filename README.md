@@ -2,7 +2,7 @@
 
 ### `GitHub Pages`
 
-Open 
+Open https://thunderstruck912.github.io/ToDoList-React/
 
 ### `npm start`
 
